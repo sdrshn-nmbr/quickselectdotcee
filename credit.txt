@@ -1,0 +1,24 @@
+Q1: If you modeled your partition function or any other code after something you
+	found online (or anywhere else), list the author and URL, and how you used it.
+A1: GeeksForGeeks, https://www.geeksforgeeks.org/quick-sort/
+	I looked at the Quicksort algorithm from GeeksForGeeks to understand how to implement the parition function, and then implemented it by myself based on that understanding. 
+
+Q2: Did you use any GenAI tools (e.g., ChatGPT)?  How?
+A2: I used GenAI to understand why the time complexity of Quicksort and similarly get_kth_smallest is O(n^2) when the array is sorted or nearly sorter. 
+
+
+################################################################################
+# Some parts of this assignment are similar to code you can find online or
+# obtain through GenAI (e.g., ChatGPT).  You are allowed to look at them,
+# and even follow a similar strategy, if:
+#  a) You can do so without "copying" (by any means),
+#  b) It will not hurt your learning opportunity, and
+#  c) You disclose any resources you used in this file.
+# 
+# Note:  Copying and then modifying variable names and format to conceal the
+# fact that you copied is still not okay.  But if you want to look at some code
+# and express a similar strategy in your own way, in your own code, that is fine.
+#
+# As long as you are transparent in this file, we will give you the benefit of
+# any doubt.
+################################################################################

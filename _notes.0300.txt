@@ -1,0 +1,16 @@
+QUICKSORT
+
+Partition the array into left and right.
+	If left  has >= 2 elements, then (recursively) partition the left.
+	If right has >= 2 elements, then (recursively) partition the right.
+
+Array is now fully sorted.
+
+SELECTION (using partition from quicksort)
+
+Partition the array into left and right.
+	If the kth (0-based) element is the last in the left/lower, then that is your answer.
+	Else if kth (0-based) element is in the left/lower (other than highest index) in left,
+		get kth (0-based) element from the left/lower
+	Else (kth 0-based must be in the right/upper partition)
+		get kth (0-based) element from the right/upper partition.

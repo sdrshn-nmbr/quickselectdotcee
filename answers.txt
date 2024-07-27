@@ -1,0 +1,12 @@
+Q1: How do you know that your TEST_NUMBERS_O_N results in O(n)
+    running time of get_kth_smallest(…)?
+A1: We know this as we do not use any nested loops or loop index multiplication, which results in an O(n) solution. We also know that the recursive portion of the get_kth_smallest function has a time complexity of O(log n) which is smaller than O(n). Therefore, the cumulative time complexity is O(n). 
+
+Q2: How did you determine that your TEST_NUMBERS_O_N_2 results in O(n²)
+    running time of get_kth_smallest(…)?
+A2: If the array is already sorted or nearly sorted, then picking the first or last element as the pivot will lead to a sub-optimal time complexity as one partitioned array will be significantly larger than the other as the pivot is already one of if not the smallest or biggest. This process is similar to sorting the array using a nested iterative structure and will result in an O(n^2) time complexity. 
+
+# We might grade this for completion, if we are unable to find a reasonable way
+# to grade it for correctness.  We will not know until we see the responses.
+# Either way, we believe thinking through this will benefit you, and we do not
+# expect this part to take very much time.
